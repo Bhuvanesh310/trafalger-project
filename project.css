@@ -1,0 +1,727 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+
+}
+/* common style */
+
+/* trafalger division */
+
+.trafalger-container {
+    padding: 24px 74px;
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+    row-gap: 18px;
+}
+
+/* trafalger div-traf header container */
+.trafalger-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+/* /trafadlager head-logo & font */
+.trafalger {
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+/* trafadlager head-logo */
+.trafalger-logo{
+    font-size: 26px;
+    color:white;
+   border: 0px ;
+   background-color: #458FF6;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 14px;
+   padding-right: 14px;
+   border-radius: 1000px;
+
+
+}
+/* trafadlager head-font */
+.trafalger-font{
+  padding-top: 4px;
+  font-size: 24px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+  color: #233348;
+ 
+  
+}
+
+
+/* /traflager head-nav bar */
+.nav {
+    display: flex;
+    column-gap: 20px;
+    color: rgb(108, 108, 95);
+    font-size: 18px;
+     font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+  color:#7D7987;
+  flex-wrap: wrap;
+}
+
+/* trafalger div-virtual-healthcare-container */
+.virtual-healthcare-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    column-gap: 60px;
+    padding-bottom: 80px;
+}
+@media screen and ( max-width:706px ) {
+    .virtual-healthcare-container{
+        flex-direction: column;
+    }
+    
+}
+
+/* virtual-healthcare-container-content  */
+.virtual-healthcare-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    align-items: flex-start;
+}
+
+/* content-head */
+.healthcare-content{
+    font-size: 3rem;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:550;
+  font-style: normal;
+  color: #000000;
+}
+
+/* content-phara */
+.healthcare-phara{
+    font-size: 1.3rem;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+  color:#7D7987;
+}
+
+/* content-button */
+.consult-today {
+   
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+    background-color:#458FF6;
+    font-size: 16px;
+    white-space: nowrap;
+    padding-top:12px;
+padding-bottom:12px;
+padding-left:30px;
+padding-right:30px;  
+cursor: pointer;
+}
+/* learn-more-button-here */
+.learn-more {
+    color:#458FF6;
+    border: 1px solid #458FF6;
+    border-radius: 20px;
+    background-color:white;
+    font-size: 16px;
+    white-space: nowrap;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:30px;
+    padding-right:30px;
+    cursor: pointer;
+}
+
+/* virtual-healthcare-container-image */
+.virtual-healthcare-image>img {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    display: flex;
+    min-width: 350px;
+}
+
+/* trafalger div end */
+
+/* our-service-container */
+.our-service-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+/* our-service-content */
+.our-service{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px   ;
+    align-items: center;
+    row-gap: 30px;  
+}
+
+/* our-service-head */
+.our-service-head{
+   font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+  color: #000000;
+  font-size:36px ;
+}
+/* .our-service-line */
+
+.line{
+    padding-top: 2px;
+    width: 56px;
+    background-color: #000000;
+}
+/* .our-service-phara */
+.our-service-phara{
+   color: #7D7987;
+   padding-left: 120px;
+   padding-right: 120px;
+    font-size: 24px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+   font-style: normal;
+}
+
+/* øur-service-catlouge */
+.our-service-catlouge{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  justify-content: space-between;
+  column-gap: 150px;
+  row-gap: 50px;
+  justify-content: center;
+  padding-bottom: 80px;
+ 
+}
+/* .our-service-catlouge-search-doctor */
+.search-doctor{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+/* our-service-catlouge-search-doctor-image */
+
+/* our-service-catlouge-search-doctor-head */
+.search-head{
+     font-size: 24px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+
+}
+/* our-service-catlouge-search-doctor-phara */
+.search-phara{
+color: #7D7987;
+    font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* oue-service-catlouge-pharmacy */
+.online-pharmacy{
+     width: 250px;
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+}
+/* oue-service-catlouge-pharmacy-head */
+.pharmacy-head{
+      font-size: 24px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+}
+/* .our-service-catlouge-pharmacy-phara */
+.pharmacy-phara{
+   color: #7D7987;
+    font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; 
+}
+/* our-service-container-consulation */
+.consulation{
+  
+     width: 250px;
+     display: flex;
+      flex-direction: column;
+    align-items: center;
+      
+}
+/* our-service-container-consulation-image */
+
+/* .our-service-container-consulation-head */
+.consulation-head{
+     font-size: 24px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal; 
+}
+/* .our-service-catlouge-cos-phar */
+.consulation-phara{
+    color: #7D7987;
+    font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; 
+}
+/* .our-service-catlouge-details-info */
+.details-info{
+     width: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+/* .our-service-container-detail-head */
+.details-head{
+     font-size: 24px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal; 
+}
+/* .our-service-catlouge-details-phara */
+.details-phara{
+    color: #7D7987;
+    font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; 
+}
+/* .our-service-catlouge-emergency */
+.emergency-care{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    width: 250px;
+}
+/* .our-service-catlouge-emergency-image */
+.emergency-image>img{
+    width: 238px;
+}
+/* .our-service-container-emergency-head */
+.emergency-head{
+     font-size: 24px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal; 
+}
+/* .our-service-catlouge-emergency-phara */
+.emergency-phara{
+    color: #7D7987;
+    font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; 
+}
+/* .our-service-catlouge-tracking */
+.tracking{
+    width: 250px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+/* .our-service-catlouge-tracking-image */
+.tracking-image>img{
+    width: 172px;
+}
+/* .our-service-container-tracking-head */
+.tracking-head{
+     font-size: 24px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal; 
+}
+/* .our-service-catlouge-tracking-phara */
+.tracking-phara{
+    color: #7D7987;
+    font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; 
+}
+/* our-service-button */
+.more{
+    background-color:white;
+    color: #4585FF ;
+    border: 1px solid #4585FF;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    cursor: pointer;
+   padding: 12px 30px;
+   width:fit-content;
+   display: flex;
+   align-self: center;
+   border-radius: 20px;
+   padding-top: 12px;
+   margin-top: -50px;
+  
+}
+/* .customer-review */
+.customer-review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    background-image: linear-gradient(#67C3F3 ,#5A98F2);
+    border-radius: 20px;
+    width: 100%;
+        height: auto;
+    min-width: 350px;
+     
+}
+/* media */
+
+
+/* .customer-review-head */
+.customer-review-head{
+  padding-top: 40px;
+    font-size: 36px;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+  color: white;
+}
+/* .customer-review-line */
+.line-new{
+    width: 56px;
+    background-color: white;
+    padding-top: 2px;
+}
+/* .customer-review-image  */
+.customer-image{
+  
+  border: 2px solid #FFFFFF;
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.customer-image>img{ 
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+}
+/* media */
+
+/* /customer-review-name-position */
+
+
+/*  */
+.customer-review-page{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+}
+/* customer review card */
+.customer-review-card
+{    display: flex;
+  align-items: center;
+  column-gap: 20px;
+    }
+/* customer name */
+.customer-name{
+    font-size: 18px;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+  color: white;
+
+}
+/* customer position */
+.customer-position{
+    font-size: 14px;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+  color: white;
+}
+/*  */
+.customer-review-phara{
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+  color: white;
+  max-width: 300px;
+}
+/* arrow key */
+.slider-controls{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+.arrow{
+    font-size:40px;
+    color:#458FF6;
+    cursor:pointer;
+}
+
+.dots{
+    display:flex;
+    gap:10px;
+}
+
+.dot{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color:#B5D2FC;
+}
+
+.dot.active{
+    background-color:#458FF6;
+}
+/* .latest-article-cards-container */
+.latest-article-head-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+
+/*latest-article-head*/
+.latest-article-head{
+    font-size: 36px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    color: #333333;
+}
+/* latest-article-line */
+.latest-article-line{
+    width: 56px;
+    height: 1px;
+    background-color:#333333;
+    padding-top: 2px;
+}
+/* latest-article-card-container */
+.latest-article-cards-container{
+   display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    row-gap: 30px;
+    
+}
+
+/* latest-article-card-disease */
+.latest-article-card-disease{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 100%;
+max-width: 450px;
+min-width: 300px;
+padding-top: 40px;
+/* latest-article-card-disease-image */
+.disease-image>img{
+  width: 100%;
+ }
+.disease-image{
+  width: 100%;
+  max-width: 420px;
+  min-width: 250px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+}
+/* article content */
+.article-content{
+  padding-left: 20px;
+  padding-right: 44%;
+}
+/* article content-head */
+.latest-article-content-head{
+  font-size: 21px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+  color: #333333;
+}
+/* article content-phara */
+.latest-article-phara{
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+  color:#7D7987;
+}
+/*  read-more-button */
+.read-more{
+  
+    color:  #4585FF;
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    cursor: pointer;
+   display: flex;
+   align-self: center;
+   border-radius: 20px;
+   padding-top: 12px;
+}}
+/* button view all */
+.view-all-button{
+color:#4585FF;
+background-color:white;
+border: 1px solid #4585FF;
+border-radius: 20px;
+font-size: 16px;
+font-family: "Mulish", sans-serif;
+font-optical-sizing: auto;
+font-weight:700;
+font-style: normal;
+cursor: pointer;
+padding: 10px 42px;}
+/* footer */
+.trafalger-footer{
+    background: linear-gradient(to bottom, #67C3F3, #5A98F2);
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 1fr 200px 200px 200px;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: grid;
+    gap: 20px;
+    min-width: 350px;
+}
+
+/* Mobile */
+@media (max-width: 768px){
+    .trafalger-footer{
+        grid-template-columns: 1fr;
+    }
+}
+     
+
+
+/* footer logo and font details */
+.footer-logo-font-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+/* footer-logo-font */
+.footer-logo-font{
+    display: flex;
+    margin: 0px;
+    column-gap: 12px;
+    align-items: center;
+}
+/* footer-about */
+.footer-logo{
+    font-size: 26px;
+    color:#5B9BF3;
+   border: 0px ;
+   background-color:white;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 14px;
+   padding-right: 14px;
+   border-radius: 1000px;
+   font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;  
+  font-weight:700;
+  font-style: normal;}
+  /* footer-font */
+.footer-font{
+    font-size: 26px;
+    color:white;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;  
+  font-weight:700;
+  font-style: normal;}
+  /* footer-details */
+.footer-about{
+    font-size: 16px;
+    color:white;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+  width: 100%;
+  max-width: 400px;
+}
+/* footer-date */
+.footer-date{
+    font-size: 16px;
+    color:white;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+/* footer-company */
+.footer-company{
+   display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+/* .footer-company-head */
+.company-head{
+    font-size: 20px;
+    color:white;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+}
+/* footer-company-content */
+.company-content{
+    font-size: 16px;
+    color:white;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
